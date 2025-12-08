@@ -9,19 +9,11 @@
         <ul class="navbar-nav ms-auto">
 
             <?php if (!empty($_SESSION['user_id'])): ?>
-                <li class="nav-item"><a class="nav-link" href="?view=orders">Orders</a></li>
-                <li class="nav-item"><a class="nav-link" href="?view=cart">Cart</a></li>
-                <li class="nav-item">
-                    <form method="post">
-                        <input type="hidden" name="action" value="logout">
-                        <button class="btn btn-sm btn-outline-secondary">Logout</button>
-                    </form>
-                </li>
+                <li class="nav-item"><a class="nav-link" href="?view=add_event">Add Event</a></li>
+                <li class="nav-item"><a class="nav-link" href="?view=RegistrationsPage">Registrations</a></li>
             <?php else: ?>
 
-                <li class="nav-item"><a class="nav-link" href="?view=login">Login</a></li>
-                <li class="nav-item"><a class="nav-link" href="?view=register">Register</a></li>
-
+                <li class="nav-item"><a class="nav-link" href="?view=AdminLogin">Admin Login</a></li>
 
             <?php endif; ?>
         </ul>

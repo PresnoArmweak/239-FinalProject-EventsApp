@@ -25,6 +25,16 @@ $events = get_events();
                 <td>
                     <a href="?view=event_details&event_id=<?php echo htmlspecialchars($event['id']); ?>" class="btn btn-sm btn-primary">View Details</a>
                 </td>
+                <td>
+                    <a href="?view=edit_event&event_id=<?php echo htmlspecialchars($event['id']); ?>" class="btn btn-sm btn-secondary">Edit</a>
+                </td>
+                <td>
+                    <form method="post" style="display:inline;">
+                        <input type="hidden" name="action" value="delete_event">
+                        <input type="hidden" name="event_id" value="<?php echo htmlspecialchars($event['id']); ?>">
+                        <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this event?');">Delete</button>
+                    </form>
+                </td>
             </tr>
 
         <?php endforeach; ?>
