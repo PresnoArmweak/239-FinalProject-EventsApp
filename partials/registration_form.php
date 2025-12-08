@@ -4,7 +4,7 @@ $events = get_events();
 
 <h2>Registration Form</h2>
 
-<form method="post">
+<form method="post" class="center">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
 

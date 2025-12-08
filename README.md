@@ -17,7 +17,7 @@ mvc final project
 [239-FinalProject-EventsApp](https://github.com/PresnoArmweak/239-FinalProject-EventsApp) 
  
 ## Screenshot of homepage 
-![alt](url) 
+![Home.jpg](url) 
  
 ## Markdown Cheat Sheet 
 [cheatsheet](https://www.markdownguide.org/cheat-sheet/) ) 

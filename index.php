@@ -83,7 +83,7 @@ switch ($action) {
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
+<body class="center">
     <?php include __DIR__ . DIRECTORY_SEPARATOR . 'conponents' . DIRECTORY_SEPARATOR . 'nav.php'; ?>
 
     <?php

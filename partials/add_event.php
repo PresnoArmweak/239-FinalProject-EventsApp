@@ -5,7 +5,7 @@ if (empty($_SESSION['user_id'])) {
     exit;
 }
 ?>
-<form method="POST">
+<form method="POST" class="center">
     <h2>Add Event</h2>
 
     <div class="mb-3">
