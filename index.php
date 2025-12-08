@@ -15,11 +15,6 @@ switch ($action) {
             $view = 'already_registered';
             break;
         }
-        if (empty($event_id) || empty($email) || empty($name)) {
-            echo "<script>alert('All fields are required.');</script>";
-            $view = 'registration_form';
-            break;
-        }
         else {
             insert_new_registration($event_id, $name, $email);
             $view = 'registration_success';
